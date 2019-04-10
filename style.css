@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#box{
+    width: 450px;
+    height: 150px;
+    margin :0px auto;
+    border:2px solid rgb(253, 86, 9);
+}
+
+table {
+    margin :0px auto;
+}
+
+.monnaies {
+    width:55%;
+    background-color: rgb(252, 252, 252);
+    color: rgb(48, 46, 46);
+    border: 1px solid rgb(253, 86, 9); 
+    margin: 5px;
+}
+
+.result1{
+    background-color: rgb(252, 252, 252);
+
+    border: 1px solid rgb(253, 86, 9); 
+    color: rgb(48, 46, 46);
+    padding: 3px;
+    font-weight: 700;
+    border-radius:5px;
+}
+
+.result2{
+    background-color: rgb(253, 86, 9);
+    color: white;
+    border: 1px solid rgb(253, 86, 9);
+    padding: 3px;
+    font-weight: 700;
+    border-radius:5px;
+}
+
+
+
+
+
+h2 {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+color: rgb(253, 86, 9);
+text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 640px) {
+    #box {
+        width: 320px;
+        height: 250px;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        }
+    .container {
+        text-align: center;      
+    }
+    }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <title>Convertisseur de monnaies</title>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body onload = "convertCurrency()";>
+    <div id="box">
+
+        <h2>Convertisseur de monnaies</h2>
+        <div class="container">
+                <table>
+            
+                
+                        <tr>
+                            <select class="monnaies" id="from" onchange="convertCurrency()";>
+                                <option value="EUR" selected>EUROPE / Euro (EUR)</option>
+                                <option value="GBP">UK / Livre Sterlling (GBP)</option>
+                                <option value="USD">USA / Dollar US (USD)</option>
+                                <option value="CAD">CANADA / Dollar Canadien (CAD)</option>
+                                <option value="TRY">TURQUIE / Livre Turque (TRY)</option>
+                                <option value="MAD">MAROC / Dirham Marocain (CAD)</option>
+                                <option value="DZD">ALGÉRIE / Dinars Algériens (DZD)</option>
+                                <option value="TND">TUNISIE  /Dinars Tunisiens (TND)</option>
+                                <option value="XPF">POLYNÉSIE FRANÇAISE / Franc CFP (XPF)</option>
+                                <option value="PLN">POLOGNE / Zloty (PLN)</option>
+                                <option value="AUD">AUSTRALIE / Dollar Australien (AUD)</option>
+                                <option value="THB">THAILANDE / Baht (THB)</option>
+                                <option value="VND">VIETNAM/ Dong (VND)</option>
+                                <option value="KHR">CAMBODGE/ Riel (KHR)</option>
+                            </select>
+                        </tr>
+                        <tr ><input class="result1" id="fromAmount" type="text" size="21" value="1" onkeyup = "convertCurrency()";/></tr>
+                    
+                    
+                            <tr>
+                                <select class="monnaies" id="to" onchange = "convertCurrency()";>
+                                    <option value="EUR" selected>EUROPE / Euro (EUR)</option>
+                                    <option value="GBP">UK / Livre Sterlling (GBP)</option>
+                                    <option value="USD">USA / Dollar US (USD)</option>
+                                    <option value="CAD">CANADA / Dollar Canadien (CAD)</option>
+                                    <option value="TRY">TURQUIE / Livre Turque (TRY)</option>
+                                    <option value="MAD">MAROC / Dirham Marocain (CAD)</option>
+                                    <option value="DZD">ALGÉRIE / Dinars Algériens (DZD)</option>
+                                    <option value="TND">TUNISIE  /Dinars Tunisiens (TND)</option>
+                                    <option value="XPF">POLYNÉSIE FRANÇAISE / Franc CFP (XPF)</option>
+                                    <option value="PLN">POLOGNE / Zloty (PLN)</option>
+                                    <option value="AUD">AUSTRALIE / Dollar Australien (AUD)</option>
+                                    <option value="THB">THAILANDE / Baht (THB)</option>
+                                    <option value="VND">VIETNAM/ Dong (VND)</option>
+                                    <option value="KHR">CAMBODGE/ Riel (KHR)</option>
+                                </select>
+                            </tr>
+                            <tr><input  class="result2" id="toAmount" type="text" size="21" disabled/></tr>
+                        
+        
+        
+        
+        
+                </table>
+        
+
+
+
+
+        </div>
+        
+    </div>
+  
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
