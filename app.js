@@ -1,7 +1,7 @@
-"use strict"
 
 
-var url = 'http://data.fixer.io/api/latest?access_key=5230fec6401750aeb329e1c083e94394&base=EUR&symbols=GBP,USD,EUR,CAD,BTC,TRY,MAD,DZD,TND,XPF,PLN,AUD,THB,VND,KHR'
+
+var url = 'https://data.fixer.io/api/latest?access_key=5230fec6401750aeb329e1c083e94394&base=EUR&symbols=GBP,USD,EUR,CAD,BTC,TRY,MAD,DZD,TND,XPF,PLN,AUD,THB,VND,KHR'
 
 
 function convertCurrency(){
